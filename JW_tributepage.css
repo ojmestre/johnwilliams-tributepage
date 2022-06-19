@@ -1,0 +1,45 @@
+#main{
+  background-image: url(https://wallpaperaccess.com/full/646162.jpg);
+  background-color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
+
+#title, #subtitle, #more-info{
+  text-align: center;
+}
+
+#image, #img-caption{
+  max-width: 100%;
+  height: auto;
+  background-size: contain;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 75px;
+}
+
+.headline{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-item3{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+#tribute-info{
+  background-color: #055e74;
+  opacity: 0.6;
+}

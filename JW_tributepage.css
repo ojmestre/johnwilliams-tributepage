@@ -1,11 +1,17 @@
-#main{
-  background-image: url(https://wallpaperaccess.com/full/646162.jpg);
-  background-color:black;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right center;
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #055e74;
   color: white;
   font-family: Helvetica, sans-serif;
+  font-size: medium;
+} 
+
+#main{
+  background-image: url(https://wallpaperaccess.com/full/646162.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 #title, #subtitle, #more-info{
@@ -34,12 +40,19 @@
   grid-column-end: 4;
 }
 
-.grid-item3{
+.grid-item1{
   grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.grid-item2{
+  grid-column-start: 2;
   grid-column-end: 4;
 }
 
 #tribute-info{
   background-color: #055e74;
   opacity: 0.6;
+  padding: 5px 8px;
+  margin: 5px 8px;
 }
